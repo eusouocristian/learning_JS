@@ -25,3 +25,9 @@ console.log('instruments after removal:', instruments)
 
 //Create one single string with all array elements
 console.log(`instruments.join(', ') = `, instruments.join(', '));
+
+//Find a string in the array. If it contains the string, returns true
+console.log('Drums is in the list?  Answer:', instruments.includes('drums'))
+
+//Find the index of an element on the array
+console.log('The index of drums is: ', instruments.indexOf('drums'))
